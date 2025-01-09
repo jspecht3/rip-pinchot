@@ -30,6 +30,6 @@ Steps to run
     - bash remove.sh
 10) Run the real files
     - python complete.py
-11) Run openmc with the real files
+11) Run cardinal with the real files
     - cardinal-opt -i openmc.i --n-threads=40
     - with 40 threads, the simulation should take ~9 hours
