@@ -46,6 +46,7 @@ pin_pitch = ${fparse 5.5685 / 10 * 1.180}
     [cell]
       type = CellTally
       blocks = '1'
+      score = 'kappa_fission flux'
       output = 'unrelaxed_tally_rel_error unrelaxed_tally_std_dev'
     []
   []
